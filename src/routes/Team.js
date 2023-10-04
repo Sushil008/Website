@@ -5,6 +5,7 @@ import MDImg from "../assets/sushil.jpg";
 import COOImg from "../assets/sabin.jpg";
 import CIOImg from "../assets/pranay.jpg";
 import PMImg from "../assets/sujan.jpg";
+import PMAudio from "../assets/sujan-audio.mp3";
 import QAImg from "../assets/promish.jpg";
 import './Team.css';
 
@@ -22,7 +23,7 @@ function Team() {
         <div className="team-member">
           <img src={MDImg} alt="MD" />
           <p>Mr. Sushil Baral, Managing Director</p>
-          <pre>{'"Saptam Tech have a strong reputation in the industry for its work culture, innovation, and commitment to excellence. \n We have been appreciated for the companys positive image and values."'}</pre>
+          <pre>{'"Saptam Tech have a strong reputation in the industry for its work culture, innovation, and commitment to excellence. \n We are very appreciative of the companys positive image and values."'}</pre>
         </div>
         <div className="team-member">
           <img src={COOImg} alt="COO" />
@@ -37,8 +38,11 @@ function Team() {
         <div className="team-member">
           <img src={PMImg} alt="PM" />
           <p>Mr. Sujan Tiwari, Project Manager</p>
-          <pre>{'"Sujan Tiwari mero Naam AKA Raju Master. \n Malai churot khana dinchan tei vara mah yo company ma aayeko ho"'}</pre>
-          <audio src="" type="audio/mp3"></audio>
+          <pre>{'" The culture, values, and work-life balance the company posseses appealed to me. \n A good cultural fit contributes to our overall job satisfaction and well-being."'}</pre>
+          <audio controls>
+            <source src={PMAudio} type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
         </div>
         <div className="team-member">
           <img src={QAImg} alt="QA" />
