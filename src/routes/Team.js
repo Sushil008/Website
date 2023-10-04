@@ -6,27 +6,27 @@ import COOImg from "../assets/sabin.jpg";
 import CIOImg from "../assets/pranay.jpg";
 import PMImg from "../assets/sujan.jpg";
 import QAImg from "../assets/promish.jpg";
+import './Team.css';
 
-function Team(){
+function Team() {
   return (
     <>
-    <Navbar/>
-    <h2>Meet our team here at Saptam Technologies</h2>
+      <Navbar />
+      <h2>Meet our team here at Saptam Technologies</h2>
       <div className="TeamInfo">
-        <img src={CEOImg} alt="CEO"></img>
+        <img src={CEOImg} alt="CEO" />
         <p>Mr. Avishek Subedi, Chief Executive</p>
-        <img src={MDImg} alt="MD"></img>
-        <p>Mr. Sushil Baral, Managing Drector</p>
-        <img src={COOImg} alt="COO"></img>
+        <img src={MDImg} alt="MD" />
+        <p>Mr. Sushil Baral, Managing Director</p>
+        <img src={COOImg} alt="COO" />
         <p>Mr. Sabin Adhikari, Chief Operation Officer</p>
-        <img src={CIOImg} alt="CIO"></img>
+        <img src={CIOImg} alt="CIO" />
         <p>Mr. Pranay Shakya, Chief Information Officer</p>
-        <img src={PMImg} alt="PM"></img>
+        <img src={PMImg} alt="PM" />
         <p>Mr. Sujan Tiwari, Project Manager</p>
-        <img src={QAImg} alt="QA"></img>
+        <img src={QAImg} alt="QA" />
         <p>Mr. Promish Gurung, Quality Assurance</p>
-        
-      </div>
+      </div>  
     </>
   );
 }

@@ -1,0 +1,12 @@
+.TeamInfo {
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.TeamInfo img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
