@@ -13,7 +13,9 @@ function Team() {
   return (
     <>
       <Navbar />
-      <h2>Meet our team here at Saptam Technologies</h2>
+      <h2 style= {{backgroundColor: '#4c2121', color: 'white', opacity:'90%', marginLeft:'20px', marginRight:'20px'}}>
+        Meet our team here at Saptam Technologies
+      </h2>
       <div className="TeamInfo">
         <div className="team-member">
           <img src={CEOImg} alt="CEO" />
@@ -41,7 +43,7 @@ function Team() {
           <pre>{'" The culture, values, and work-life balance the company posseses appealed to me. \n A good cultural fit contributes to our overall job satisfaction and well-being."'}</pre>
           <audio controls>
             <source src={PMAudio} type="audio/mpeg" />
-            Your browser does not support the audio element.
+            
           </audio>
         </div>
         <div className="team-member">

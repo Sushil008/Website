@@ -14,7 +14,7 @@ class Navbar extends Component{
     render(){
         return(
             <nav className="NavbarItems">            
-                <h1 className="navbar-logo" style={{ backgroundColor: 'white', color: '#000000'}}><img src={brand} alt="banner_image" className="brand-img"/><span style= {{fontWeight:'100%', fontFamily:'Helvetica'}} >Technologies</span></h1>
+                <h1 className="navbar-logo" style={{ backgroundColor: 'white', color: '#000000'}}><img src={brand} alt="banner_image" className="brand-img"/><span style= {{fontWeight:'100%', fontFamily:'Helvetica', marginLeft: '20px', marginRight:'20px'}} >Technologies</span></h1>
                 <div className="menu-icons" onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times":"fas fa-bar"}></i>
                 </div>
